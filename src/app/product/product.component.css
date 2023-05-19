@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    color: rgba(57, 32, 23, 0.738);
+    border: 1px solid ;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+padding: 10px;
+border: 1px solid black;
+}
+table td {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    }
+
+    tbody button {
+        padding: 5px;
+        margin: 5px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(216, 127, 94, 0.738);
+        cursor: pointer;
+    }
+
+.form-control{
+    padding: 10px;
+    margin: 10px;
+    width: 50vw;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+
+}
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+
+    margin-top: 10px;
+    padding: 10px 10px;
+width: 50vw;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+ position: relative;
+ left: 50%; 
+ transform: translateX(-50%);
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.delete:hover{
+	background-color:#ff0000 !important;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
